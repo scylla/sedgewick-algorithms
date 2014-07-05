@@ -46,14 +46,8 @@ public class ResizingArrayQueueOfStrings implements Iterable<String> {
 		int tempIndex = 0;
 		
 		if(N > 0) {
-			if(front <= rear) 
 				for(int listIndex = front;listIndex <= rear-1; listIndex++, tempIndex++)
 					temp[tempIndex] = list[listIndex];
-			else {
-				int listSize = list.length;
-				for(int listIndex = front;listIndex == rear-1; listIndex = listIndex % listSize, tempIndex++)
-					temp[tempIndex] = list[(listIndex++)%listSize];
-			}
 		} 
 		
 		front = 0;
