@@ -1,11 +1,10 @@
 /****************************** ResizingArrayQueueOfStrings.java ******************************************************************
-**------ solves the following problem -----
-**Develop a class ResizingArrayQueueOfStrings that implements the queue
-**abstraction with a fixed-size array, and then extend your implementation to use array
-**resizing to remove the size restriction.
-**sample input will be space separated strings ex: a b c d  
-**author :: amit nagarkoti
-**contact :: amitnagarkoti3@gmail.com
+* ------ solves the following problem -----
+* Develop a class ResizingArrayQueueOfStrings that implements the queue
+* abstraction with a fixed-size array, and then extend your implementation to use array
+* resizing to remove the size restriction.
+* sample input will be space separated strings ex: a b c d  
+* @author :: amit nagarkoti
 **************************************************************************************************************/
 
 import java.util.Scanner;

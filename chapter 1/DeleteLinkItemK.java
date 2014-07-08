@@ -1,10 +1,9 @@
 /****************************** DeleteLinkItemK.java ******************************************************************
-**------ solves the following problem -----
-**Write a method delete() that takes an int argument k and deletes the kth element
-**in a linked list, if it exists.
-** This is a generic implmentation 
-**author :: amit nagarkoti
-**contact :: amitnagarkoti3@gmail.com
+* ------ solves the following problem -----
+* Write a method delete() that takes an int argument k and deletes the kth element
+* in a linked list, if it exists.
+* This is a generic implmentation 
+* @author :: amit nagarkoti
 **************************************************************************************************************/
 
 
