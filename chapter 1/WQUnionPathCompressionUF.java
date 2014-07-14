@@ -1,6 +1,7 @@
 /****************************** WQUnionPathCompressionUF.java ******************************************************************
 * ------ solves the following problem -----
-* Weighted quick-union with path compression :: In the original solution they have missed the part where the size needs to be re-adjusted too in find()
+* Weighted quick-union with path compression :: In the original solution they have missed the part where the size 
+* needs to be re-adjusted too in find()
 * WQUnionPathCompressionUF
 * @author :: amit nagarkoti
 **************************************************************************************************************/
@@ -67,6 +68,8 @@ public class WQUnionPathCompressionUF {
   public int count () {
 	return N;
   }
+
+  // test method
   public static void main (String[] args) {
     long startTime = System.currentTimeMillis();
     Scanner sc = new Scanner(new java.io.BufferedInputStream(System.in));
