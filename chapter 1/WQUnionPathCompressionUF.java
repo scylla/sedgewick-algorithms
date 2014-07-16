@@ -79,7 +79,7 @@ public class WQUnionPathCompressionUF {
       wuf.union(sc.nextInt(), sc.nextInt());
     }
     System.out.println(wuf.count());
-    System.out.println("execution took :: " + (System.currentTimeMillis() - startTime)/1000 + " ms");
+    System.out.println("execution took :: " + (System.currentTimeMillis() - startTime)/1000 + " s");
     
   }
 
